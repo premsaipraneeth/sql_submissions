@@ -13,7 +13,7 @@ CREATE TABLE Submission (
   submission_type VARCHAR(50),
   city VARCHAR(100),
   state VARCHAR(50),
-  zip_code VARCHAR(10)
+  zip_code VARCHAR(10),
  FOREIGN KEY (consultant_id) REFERENCES Consultant(consultant_id)
 );
 
